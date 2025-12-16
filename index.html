@@ -3,19 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício HTML</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <form>
-        <label for="user"><b>Usuário:</b></label>
-        <input id="user" type="text" /><br />
-        <label for="email"><b>E-mail:</b></label>
-        <input id="email" type="email" /><br />
-        <label for="password" style="color:aqua"><b>Senha:</b></label>
-        <input id="password" type="password" /><br />
-        <button class="botaoenvio" type="submit">Cadastrar</button>
-        <button class="botaoapagar" type="reset">Cancelar</button>
-    </form>
+    <header>
+       <div class="container">
+         <h1>Meu portal de notícias</h1>
+        <nav>
+            <ul>
+                <li>
+                <a href="#sports" title="Ir para seção de esportes">Esportes</a></li>
+                <li>
+                <a href="#economy" title="Ir para seção de economia">Economia</a></li>
+                <li>
+                    <a href="#culture" title="Ir para a seção de cultura">Cultura</a>
+                </li>
+                <li>
+                    <a href="#tech" title="Ir para a seção de tecnologia">Tecnologia</a>
+                </li>
+            </ul>
+        </nav>
+       </div>
+    </header>
+    <main>
+        <div>
+        <section id="culture">
+            <div class="container">
+                <h2>Cultura</h2>
+                <div class="articles">
+                    <article>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/5sos-NZ4A4323.jpg/1200px-5sos-NZ4A4323.jpg" alt="5 Seconds of Summer" />
+                        <header>
+                            <time class="creation-date">15/12/2025 às 00:11</time>
+                        </header>
+                        <h3>5 Seconds of Summer anuncia tour no Brasil</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam esse ab atque veritatis neque nisi! Sint distinctio at quae placeat neque, laborum perferendis, doloremque omnis ab, nemo dolorem dolor iusto?</p>
+                        <br/><a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <img src="https://www.estadao.com.br/resizer/v2/S2KHWDWKIFAYLK2KI2VLOCUI6M.jpg?quality=80&auth=5b711cc662fe1fef5f0afe646c9777cbba2dc02c24bb54d4f2e0f79f0cf3e336&width=380" alt="Rock in Rio 2026" />
+                        <header>
+                            <time class="creation-date">15/12/2025 às 00:11</time>
+                        </header>
+                        <h3>Rio Card esgota em menos de 30 minutos</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quos neque placeat harum voluptatum porro nobis possimus quibusdam? Ratione reprehenderit alias quibusdam laudantium voluptates animi maxime quidem fuga excepturi inventore?</p>
+                        <br/><a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/655de9cf-5efd-4744-aafa-b219c357df83/dc2xjrz-c39e1998-58c7-4531-8097-9ae99a9fb013.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi82NTVkZTljZi01ZWZkLTQ3NDQtYWFmYS1iMjE5YzM1N2RmODMvZGMyeGpyei1jMzllMTk5OC01OGM3LTQ1MzEtODA5Ny05YWU5OWE5ZmIwMTMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hjVUDIZTho7EFcIPPhP-2PuFCASLLkaaCdrdDK2reoo" alt="banda de cachorros" />
+                        <header>
+                            <time class="creation-date">15/12/2025 às 00:11</time>
+                        </header>
+                        <h3>Banda de cachorros em Belo Horizonte</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quisquam provident delectus mollitia illum incidunt fuga iusto dolores voluptas a, vero molestiae rerum nemo vel sed veniam! At, tempore quibusdam?</p>
+                        <br /><a href="#">Leia mais</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="tech">
+            <div class="container">
+                <h2>Tecnologia</h2>
+                <div class="articles">
+                    <article>
+                        <img src="https://t2.tudocdn.net/701101?w=1920&h=1080" alt="Vivo Telefonia" />
+                        <header>
+                            <time class="creation-date">15/12/2025 às 00:11</time>
+                        </header>
+                        <h3>Vivo anuncia fim do serviço no Brasil em 31 de Dezembro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sapiente aliquam atque, vero perspiciatis enim et molestias, quos ipsa voluptatum dolorum! Aliquam incidunt voluptate magni et sapiente ad, mollitia ratione!</p>
+                        <br /><a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <img src="https://s2-techtudo.glbimg.com/ejjlUjmwm1MwAW4HV1SWkq7tUsg=/0x0:1920x1080/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2024/w/c/VpoxDXQwCh35rNAyBdxA/99742.jpg" alt="pc gamer" />
+                        <header>
+                            <time class="creation-date">15/12/2025 às 00:11</time>
+                        </header>
+                        <h3>Dicas para montar um pc sem gastar muito</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, accusamus! Eum, debitis voluptas. Suscipit cupiditate at consequuntur laborum exercitationem? Animi dolore rerum facilis repellendus tempora voluptatem labore nesciunt inventore quod?</p>
+                        <br /><a href="#">Leia mais</a></article>
+                        <article>
+                            <img src="https://cdn.fastly.steamstatic.com/store/home/store_home_share.jpg" alt="steam" />
+                            <header>
+                            <time class="creation-date">15/12/2025 às 00:11</time>
+                        </header>
+                        <h3>Melhores games na steam</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda reprehenderit error totam maiores excepturi omnis vitae veniam laborum quae architecto amet, tenetur, animi nostrum veritatis possimus beatae suscipit, repudiandae voluptas!</p>
+                        <br /><a href="#">Leia mais</a>
+                        </article>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="sports">
+            <div class="container">
+                <h2>Esportes</h2>
+           <div class="articles"> <article>
+                <img src="https://s2-ge.glbimg.com/Zf8KCNzJ7Bf4H47mAohcybZa9g8=/0x0:1080x608/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/W/W/vgMV6mTLWubXcY32ChHQ/carrossel-argentina-x-brasil-sem-messi-neymar.png" alt="Jogo do Brasil contra Argentina" />
+                <header>
+                    <time class="creation-date">14/12/2025 às 22:36</time>
+                </header>
+                <h3>Hoje, Brasil contra Argentina</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magni accusamus quae ex provident reiciendis veniam, corporis earum voluptates ipsum cumque molestiae sapiente nihil id, sed explicabo quo, quaerat deserunt?</p>
+                <br/><a href="#">Leia mais</a>
+            </article>
+            <article>
+                <img src="https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/02/768/432/mahomes-sad_horiz.jpg?ve=1&tl=1" alt="Kansas Chiefs" />
+                <header>
+                    <time class="creation-date">13/12/2025</time>
+                </header>
+                <h3>Chiefs perde os playoffs pela primeira vez em 10 anos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa in consequuntur tempore quaerat et dignissimos modi. Soluta, dicta! Beatae officiis excepturi veritatis nemo vel nobis odit, sed molestias accusamus rerum!</p>
+                <br/><a href="#">Leia mais</a>
+            </article>
+            <article>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST6GXmLFtaLlWps6ElZa0cE8EgwxST0ia2Yw&s" alt="clássico pernambucano: sport versus santa cruz" />
+                <header>
+                    <time class="creation-date">14/12/2025 às 23:37</time>
+                </header>
+                <h3>Clássico pernambucano amanhã</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam eaque molestias provident at praesentium quae tenetur corrupti esse, accusamus similique nihil obcaecati expedita magnam soluta excepturi quaerat placeat reprehenderit repellendus.</p>
+                <br/><a href="#">Leia mais</a>
+            </article>
+            <article>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST6GXmLFtaLlWps6ElZa0cE8EgwxST0ia2Yw&s" alt="clássico pernambucano: sport versus santa cruz" />
+                <header>
+                    <time class="creation-date">14/12/2025 às 23:37</time>
+                </header>
+                <h3>Clássico pernambucano amanhã</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam eaque molestias provident at praesentium quae tenetur corrupti esse, accusamus similique nihil obcaecati expedita magnam soluta excepturi quaerat placeat reprehenderit repellendus.</p>
+                <br/><a href="#">Leia mais</a>
+            </article>
+            </div>
+            </div>
+        </section>
+        <section id="economy">
+            <div class="container">
+                <h2>Economia</h2>  
+            <div class="articles">
+                <article>
+                <img src="https://fup.org.br/wp-content/uploads/2019/03/35b92a7025f47f32127b10fc77ca7cc7.jpg" alt="queda no desemprego" />
+                <header>
+                    <time class="creation-date">14/12/2025 às 22:37</time>
+                </header>
+                <h3>Desemprego cai em níveis recorde</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium quis asperiores et aliquam quam nostrum eveniet officia debitis quasi consequatur reiciendis ducimus voluptates quisquam, fugiat amet natus porro illo ut!</p>
+                <br/><a href="#">Leia mais</a>
+            </article>
+            <article>
+                <img src="https://www.infomoney.com.br/wp-content/uploads/2025/04/Captura-de-tela-2025-04-25-070947.png?fit=1099%2C614&quality=50&strip=all" alt="China defende união entre sistemas" />
+                <header>
+                    <time class="creation-date">15/12/2025</time>
+                </header>
+                <h3>China defende união entre sistemas empresarial e financeiro para impulsionar consumo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur aliquam, ratione accusantium iure, facere dolores est incidunt soluta beatae, vero fugiat delectus! Ad magni, nulla enim perspiciatis quisquam ratione impedit!</p>
+                <br/><a href="#">Leia mais</a>
+            </article>
+            <article>
+                <img src="https://www.jornalopoder.com.br/public/storage/arqConteudo/arqSiteNoticia/928a59aa-2b68-4ce0-b561-0f29169ccd18-175440557368921ac55103b.jpeg" alt="Recife gera 60% dos empregos" />
+                <header>
+                    <time class="creation-date">15/12/2025 às 23:38</time>
+                </header>
+                <h3>Recife gera 60% de saldo dos empregos do segundo semestre de 2025
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus itaque alias, quidem id fugit vitae! Debitis soluta ducimus voluptatum doloremque! Ipsa quasi et maxime aliquam dignissimos autem alias perspiciatis fugiat.</p>
+                <br/><a href="#">Leia mais</a>
+            </article>
+            </div>
+            </div>
+        </section>
+        </div>
+    </main>
+    <aside>
+        Conteúdo
+    </aside>
+    <footer>
+        &copy; 2025 - Todos os direitos reservados
+    </footer>
 </body>
 </html>
